@@ -23,3 +23,17 @@ sum_frac, prod_frac = process_fractions(frac1_str, frac2_str)
 
 print(f"Сумма дробей {frac1_str} и {frac2_str} - {sum_frac[0]}/{sum_frac[1]}")
 print(f"Произведение дробей {frac1_str} и {frac2_str} - {prod_frac[0]}/{prod_frac[1]}")
+
+#задание 2
+def to_hex(num):
+    hex_digits = "0123456789abcdefgqim"
+    hex_str = ""
+    while num > 0:
+        hex_str = hex_digits[num % 16] + hex_str
+        num = num // 16
+    return hex_str
+
+# Пример использования функции
+num = 276678786786867876876
+hex_str = to_hex(num)
+print(f"Шестнадцатеричное представление числа {num} - {hex_str}")
