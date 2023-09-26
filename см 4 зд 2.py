@@ -11,3 +11,4 @@ def kwargs_to_dict(**kwargs):
 print(kwargs_to_dict(name='Лиза', age=19,
                      has_work=True, commands=['ККН', 'LM', 'DP'],
                      growth=1.72, nicks={'STONE', '17th'}))
+#пользавалась подсказками на гитхаб поскольку совсем не уверенна врешение и своих умественных способностях над этим заданием
